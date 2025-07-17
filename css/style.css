@@ -345,3 +345,13 @@
 .copyright a:hover {
   color: var(--light);
 }
+
+.p-height {
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .p-height {
+    height: 300px;
+  }
+}
